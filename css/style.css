@@ -258,8 +258,8 @@ nav ul li a {
     color: #f8f8f2;
     /* margin: 1.6rem 0; */
     font-weight: 100;
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-left: 10%;
+    margin-top: 4%;
 }
 
 /* Bio Typography */
@@ -267,37 +267,15 @@ nav ul li a {
     color: #f8f8f2;
 }
 
-.headline {
+/* .headline {
     font-size: 8vw;
 }
 
 .subhead {
     font-size: 2vw;
-}
+} */
 
-/* Responsive Typography*/
-
-@media screen and (max-width: 864px) {
-    .headline {
-        font-size: 5vh;
-    }
-    .subhead {
-        font-size: 1.25vh;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .headline {
-        font-size: 5vh;
-        margin: 0;
-    }
-    .subhead {
-        margin: 0px;
-        padding: 0px;
-        font-size: 1vh;
-    }
-}
-
+/* MOBILE */
 @media screen and (max-width: 480px) {
 
     header {
@@ -326,61 +304,46 @@ nav ul li a {
     }
 }
 
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        .headline {
-            font-size: 2rem;
-        }
-        .subhead {
-            font-size: 1rem;
-        }
-    }
+/* Responsive Typography*/
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 576px){
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .headline {
-        font-size: 2rem;
+        font-size: 6.5vh;
     }
     .subhead {
-        font-size: 1rem;
+        font-size: 2vh;
     }
 }
 
-@media only screen and (min-device-width : 577px) and (max-device-width : 768px){
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
     .headline {
-        font-size: 4rem;
+        font-size: 8vh;
     }
     .subhead {
-        font-size: 1rem;
+        font-size: 2.5vh;
     }
 }
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 992px){
+@media screen and (min-width: 992px) {
     .headline {
-        font-size: 6rem;
+        font-size: 10vh;
     }
     .subhead {
-        font-size: 1rem;
+        font-size: 4vh;
     }
-} */
+}
 
-/* @media only screen and (min-device-width : 993px) {
+
+/* @media screen and (max-width: 576px) {
     .headline {
-        font-size: 10rem;
+        font-size: 6vh;
+        margin: 0;
     }
     .subhead {
-        font-size: 3rem;
-    }
-} */
-
-
-
-
-/* 
-@media (min-width: 320px) {
-    .headline {
-        font-size: 2rem;
-    }
-    .subhead {
-        font-size: 1rem;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.25vh;
     }
 }
 
@@ -409,16 +372,9 @@ nav ul li a {
     .subhead {
         font-size: 2rem;
     }
-}
-
-@media (min-width: 1200px) {
-    .headline {
-        font-size: 10rem;
-    }
-    .subhead {
-        font-size: 2.5rem;
-    }
 } */
+
+
 
 
 .about {
