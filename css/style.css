@@ -63,6 +63,10 @@ nav ul {
     display: flex;
 }
 
+/* nav.black ul {
+    background: white;
+} */
+
 nav ul li {
     padding: 0 0.4rem;
 }
@@ -334,50 +338,110 @@ nav ul li a {
     }
 }
 
-
-/* @media screen and (max-width: 576px) {
-    .headline {
-        font-size: 6vh;
-        margin: 0;
-    }
-    .subhead {
-        margin: 0px;
-        padding: 0px;
-        font-size: 1.25vh;
-    }
-}
-
-@media (min-width: 576px) {
-    .headline {
-        font-size: 2rem;
-    }
-    .subhead {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .headline {
-        font-size: 4rem;
-    }
-    .subhead {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .headline {
-        font-size: 8rem;
-    }
-    .subhead {
-        font-size: 2rem;
-    }
-} */
-
-
+/* ABOUT */
 
 
 .about {
-    height: 50vh;
+    height: 100vh;
     width: 100%;
+    background-color: black; 
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    /* height: 50vh; */
+}
+
+.about-me {
+    font-family: 'Reem Kufi', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 400;
+    margin: 5% 10%;
+    color: #f8f8f2;
+}
+
+.about-me-headline {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 900;
+} 
+
+.about-me-body {
+    font-weight: 400;
+    font-size: 1.3rem;
+} 
+
+.skills-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-container ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+
+.skills-container ul li {
+    display: flex;
+    
+}
+
+.skills-container ul li:first-child {
+    font-size: 2vh;
+}
+
+/* FOOTER */
+/* Custom Styles */
+
+footer {
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+footer > .intro {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
+}
+
+footer > .tagline {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 100;
+}
+
+.icons-social i {
+    padding: 10px;
+}
+
+/* Theme */
+
+footer {
+	background-color: black;
+    color: #f8f8f2;
+}
+
+.icons-social a {
+	color: #f8f8f2;
+}
+
+.icons-social a svg path{
+	fill: #f8f8f2;
 }

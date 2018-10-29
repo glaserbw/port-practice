@@ -10,9 +10,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
     <body>
-        <header class="heading">
+        <header class="heading" id="home">
             <div class="container">
                     <nav>
                         <input type="checkbox" id="nav" class="hidden">
@@ -21,15 +22,16 @@
                             <i></i>
                             <i></i>
                         </label>
-                        <div class="logo">
+                        <!-- <div class="logo">
                             <a href="#">BG</a>
-                        </div>
+                        </div> -->
                         <div class="spacer"></div>
                         <div class="nav-wrapper">
                             <ul>
-                                <li class="link-underline-effect"><a href="#">About</a></li>
-                                <li class="link-underline-effect"><a href="#">Projects</a></li>
-                                <li class="link-underline-effect"><a href="#">Contact</a></li>
+                                <li class="link-underline-effect"><a href="#home">Home</a></li>
+                                <li class="link-underline-effect"><a href="#about">About</a></li>
+                                <li class="link-underline-effect"><a href="#projects">Projects</a></li>
+                                <li class="link-underline-effect"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -39,17 +41,63 @@
                     <div class="subhead">Full-Stack Developer | Solutions Engineer | Digital Strategist</div>
             </div>
         </header>
-        <section> 
-            <div class="about">
-                <p>Something will eventually be here. Trust me.</p>
-            </div>
+        <section id="about" class="about">
+          <div class="about-container">
+              <div class="about-me">
+                  <p class="about-me-headline">I'm a full-stack developer with a deep appreciation meaningful user communication</p>
+                  <hr>
+                  <hr/>
+                  <p class="about-me-body">After over 10+ years experience in the digital advertising space, I decided to refocus my career and chase a passion for web development. What started as hobby/side projects quickly evolved into a career pivot to software development. Having worked in a multiude of different roles across tech, I understand what it takes for cross-functional teams to be successful. </p>
+                  <br/>
+                  <p class="about-me-body">When not coding/tinkering, you can find me in the mountains with my wife and Australian Cattle Dog.</p>
+              <div class="skills-container">
+                <ul class="skills-frontend">
+                  <li>Frontend:</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>React.js</li>
+                  <li>Boostrap</li>
+                  <li>Materialize</li>
+                  <li>HTML5 Canvas</li>
+                  <li>Charts.js</li>
+                </ul>
+                <ul class="skills-backend">
+                  <li><h3>Backend:</h3></li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                  <li>PostgreSQL</li>
+                  <li>Python</li>
+                  <li>Django</li>
+                </ul>
+                <ul class="skills-other">
+                  <li><h3>Other:</h3></li>
+                  <li>Heroku</li>
+                  <li>JSON</li>
+                  <li>DFP</li>
+                  <li>Salesforce</li>
+                  <li>Tableau</li>
+                  <li>Microstrategy</li>
+                </ul>
+              </div>
+              </div>
+          </div>
         </section>
+        <!-- <footer>
+          <div class="tagline">Contact</div>
+          <div class="icons-social">
+            <a target="_blank" href="https://github.com/glaserbw"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/brian-w-glaser/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="mailto:glaserbw@gmail.com"><i class="far fa-envelope"></i></a>
+            <a target="_blank" href ="https://drive.google.com/file/d/1CWWai4iXAyws1uXSCTVl7hdxV4Hh_5as/view?usp=sharing"><i class="fas fa-file-pdf"></i></a>
+          </div>
+        </footer> -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-
-
-
-
-
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="./js/script.js" async defer></script>
     </body>
 </html>
